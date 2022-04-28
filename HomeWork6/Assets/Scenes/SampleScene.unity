@@ -152,9 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612b7131db8ed2a498001b97125d5a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ogre: {fileID: 5734586776780174956, guid: 4ff59a0a0e8a5564998b9bee61e39dd7, type: 3}
+  _template: {fileID: 0}
   _spawns: []
-  _countOgres: 0
 --- !u!4 &83076045
 Transform:
   m_ObjectHideFlags: 0
@@ -263,12 +262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612b7131db8ed2a498001b97125d5a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ogre: {fileID: 5734586776780174956, guid: 4ff59a0a0e8a5564998b9bee61e39dd7, type: 3}
+  _template: {fileID: -700513771295878886, guid: 4ff59a0a0e8a5564998b9bee61e39dd7, type: 3}
   _spawns:
   - {fileID: 1569993668}
   - {fileID: 83076045}
   - {fileID: 1741269869}
-  _countOgres: 12
 --- !u!4 &468860261
 Transform:
   m_ObjectHideFlags: 0
@@ -593,9 +591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612b7131db8ed2a498001b97125d5a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ogre: {fileID: 5734586776780174956, guid: 4ff59a0a0e8a5564998b9bee61e39dd7, type: 3}
+  _template: {fileID: 0}
   _spawns: []
-  _countOgres: 0
 --- !u!4 &1569993668
 Transform:
   m_ObjectHideFlags: 0
@@ -658,9 +655,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612b7131db8ed2a498001b97125d5a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ogre: {fileID: 5734586776780174956, guid: 4ff59a0a0e8a5564998b9bee61e39dd7, type: 3}
+  _template: {fileID: 0}
   _spawns: []
-  _countOgres: 0
 --- !u!1001 &1874019511920164608
 PrefabInstance:
   m_ObjectHideFlags: 0
