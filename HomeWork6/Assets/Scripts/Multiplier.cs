@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InstantiateOgre : MonoBehaviour
+public class Multiplier : MonoBehaviour
 {
     [SerializeField] private Ogre _template;
     [SerializeField] private Transform[] _spawns;
 
     private void Start()
     {
-        StartCoroutine(CreateOgres());
+        StartCoroutine(Spawn());
     }
 
-    private IEnumerator CreateOgres()
+    private IEnumerator Spawn()
     {
         while (true)
         {

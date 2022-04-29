@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class MoveTo : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     private void Start()
     {
